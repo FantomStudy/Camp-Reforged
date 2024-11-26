@@ -1,0 +1,41 @@
+.logo {
+  width: 200px;
+}
+.footer {
+  padding: 50px 0;
+  overflow: hidden;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
+  font-size: 18px;
+  align-items: end;
+}
+.columnHead {
+  font-size: 24px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
+  align-items: end;
+}
+.socialsRow {
+  display: flex;
+  grid-gap: 15px;
+}
+.social {
+  width: 50px;
+  filter: grayscale(100%);
+  transition: 0.3s filter ease-in-out;
+}
+.social:hover {
+  filter: grayscale(0);
+}

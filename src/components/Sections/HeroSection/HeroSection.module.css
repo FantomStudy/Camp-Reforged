@@ -1,0 +1,35 @@
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.mask {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  width: 390px;
+  filter: blur(10px);
+}
+.textblock {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
+  text-align: center;
+  width: 400px;
+  align-items: center;
+}
+.button {
+  background-color: var(--primary);
+  color: white;
+  font-size: 18px;
+}
+.hero {
+  width: 550px;
+}
+@media (max-width: 1440px) {
+  .mask {
+    width: 250px;
+  }
+}

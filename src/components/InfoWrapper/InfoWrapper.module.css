@@ -1,0 +1,16 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 120px;
+  grid-gap: 100px;
+  overflow: hidden;
+  margin: 0 0 50px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  grid-gap: 15px;
+}
+.count {
+  color: var(--primary);
+}
